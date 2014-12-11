@@ -1,0 +1,625 @@
+/* line 6, style.scss */
+.pure-menu li a:hover, .pure-menu li a:focus {
+  background: transparent;
+}
+
+/* line 9, style.scss */
+.pure-menu-open > ul {
+  width: 100%;
+  background-color: #8bcbb9;
+  -webkit-box-shadow: 0px 3px 15px black;
+  box-shadow: 0px 3px 15px black;
+}
+
+/* line 14, style.scss */
+.pure-menu-horizontal li {
+  /* before was links */
+  padding: 5% 12%;
+  /* media query */
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: media query*/
+  text-shadow: 0px 3px 4px black;
+}
+
+/* line 22, style.scss */
+.pure-menu li a {
+  padding: 0px 0px;
+}
+
+/* line 25, style.scss */
+.pure-u-md-1-3 {
+  float: left;
+  text-align: center;
+}
+
+/* line 30, style.scss */
+.pure-menu-heading img {
+  width: 200px;
+  /* media query */
+}
+
+/* line 34, style.scss */
+.pure-menu .pure-menu-heading {
+  padding: 0px;
+}
+
+/* line 37, style.scss */
+.pure-menu a {
+  color: inherit;
+}
+
+/* line 40, style.scss */
+header {
+  height: 725px;
+  /* media query*/
+  background-image: url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 46, style.scss */
+header .pure-u-1 {
+  /*FOR DOWN ARROW in html*/
+  width: 8%;
+  height: 8%;
+}
+
+/* line 52, style.scss */
+.about {
+  /*----------KEEP----------*/
+  height: 500px;
+  /*media query*/
+  background-color: #8bcbb9;
+  padding: 0px 100px;
+  /*media query*/
+  text-align: center;
+  padding-top: 60px;
+  /*media query*/
+}
+/* line 62, style.scss */
+.about img {
+  width: 400px;
+  padding: 0px 0px;
+  padding-right: 15px;
+  /*media query*/
+}
+/* line 67, style.scss */
+.about h1 {
+  text-align: center;
+  /* font-size: media query*/
+  color: white;
+}
+/* line 72, style.scss */
+.about p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  /*media query*/
+  line-height: 28px;
+  /*media query*/
+  padding: 0px 0px;
+  margin-left: 15px;
+  /*media query*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 82, style.scss */
+.about .border {
+  border-top: 7px solid white;
+  border-bottom: 7px solid white;
+  padding: 30px 30px;
+  /*media query*/
+}
+/* line 88, style.scss */
+.about .contentalign {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 93, style.scss */
+.about .contentalign img {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+/* line 99, style.scss */
+.pure-g [class*="pure-u"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 102, style.scss */
+.skills {
+  background-image: url("../img/texture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  /*media query*/
+  color: white;
+  text-shadow: 0px 2px 15px black;
+  padding-top: 60px;
+  /*media query*/
+}
+/* line 112, style.scss */
+.skills .pure-md-1-1 {
+  text-align: center;
+}
+/* line 115, style.scss */
+.skills img {
+  width: 800px;
+  /*media query*/
+}
+/* line 118, style.scss */
+.skills h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 121, style.scss */
+.skills p {
+  font-family: sans-serif;
+  font-size: 16px;
+  /*media query*/
+  line-height: 28px;
+  /*media query*/
+}
+
+/* line 127, style.scss */
+.html {
+  border: 5px solid #8bcbb9;
+  border-radius: 10px;
+  color: #8bcbb9;
+  font-weight: bold;
+  margin: 15px 38%;
+  /*media query*/
+}
+
+/* line 134, style.scss */
+.css {
+  border: 5px solid #8bcbb9;
+  border-radius: 10px;
+  color: #8bcbb9;
+  font-weight: bold;
+  margin: 15px 38%;
+  /*media query*/
+}
+
+/* line 141, style.scss */
+section {
+  padding: 100px 80px;
+  /*media query*/
+  background-color: #8bcbb9;
+}
+
+/* line 145, style.scss */
+.projects {
+  /*-------------Everything seems fine-------------*/
+}
+/* line 146, style.scss */
+.projects h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+  /*media query*/
+  color: white;
+}
+/* line 152, style.scss */
+.projects p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  /*media query*/
+  margin: 0px 0px 30px 0px;
+  /*media query*/
+  color: grey;
+}
+/* line 159, style.scss */
+.projects img {
+  width: 75%;
+}
+
+/* line 163, style.scss */
+.caption {
+  margin: 10px 0px;
+  /*media query*/
+}
+/* line 165, style.scss */
+.caption h4 {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px 5px 0px;
+  /*media query*/
+}
+/* line 171, style.scss */
+.caption p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  /*media query*/
+  margin-bottom: 30px;
+  /*media query*/
+  color: grey;
+}
+
+/* line 180, style.scss */
+.contact {
+  /*---SEEMS FINE---*/
+  margin: 80px 30px;
+  /*media query*/
+  /*MEDIA QUERY*/
+}
+/* line 182, style.scss */
+.contact h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+/* line 187, style.scss */
+.contact p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  /*media query*/
+  color: grey;
+}
+/* line 193, style.scss */
+.contact .social {
+  text-align: center;
+  width: 400px;
+  /*media query*/
+  margin: 0 auto;
+}
+/* line 198, style.scss */
+.contact img {
+  width: 40px;
+  /*media query*/
+}
+/* line 201, style.scss */
+.contact ul {
+  list-style-type: none;
+  padding: 0px;
+  /* centers social media query*/
+}
+
+/* line 206, style.scss */
+footer {
+  /*---SEEMS FINE---*/
+  background-color: grey;
+}
+/* line 208, style.scss */
+footer p {
+  text-align: center;
+  color: white;
+}
+
+/*------------------------------------
+                QUERIES
+-------------------------------------*/
+@media screen and (max-width: 568px) {
+  /* line 220, style.scss */
+  .about {
+    /*----------KEEP----------*/
+    height: 700px;
+    /*change in every quey*/
+    padding: 0px 40px;
+    padding-top: 60px;
+    /*media query*/
+  }
+  /* line 228, style.scss */
+  .about img {
+    width: 250px;
+    padding: 0px 0px;
+    /*centers it*/
+  }
+  /* line 232, style.scss */
+  .about p {
+    padding-top: 10px;
+    margin-left: 0px;
+  }
+  /* line 236, style.scss */
+  .about .border {
+    padding: 20px 0px;
+  }
+  /* line 239, style.scss */
+  .about .contentalign {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 244, style.scss */
+  .about .contentalign img {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+  }
+
+  /* line 249, style.scss */
+  .skills {
+    height: 550px;
+    padding-top: 60px;
+    /*media query*/
+  }
+  /* line 252, style.scss */
+  .skills img {
+    width: 380px;
+  }
+  /* line 255, style.scss */
+  .skills p {
+    font-family: sans-serif;
+    font-size: 16px;
+    /*media query*/
+    line-height: 28px;
+    /*media query*/
+  }
+
+  /* line 261, style.scss */
+  .html {
+    border: 5px solid #8bcbb9;
+    border-radius: 10px;
+    color: #8bcbb9;
+    font-weight: bold;
+    margin: 15px 38%;
+    /*media query*/
+  }
+
+  /* line 268, style.scss */
+  .css {
+    border: 5px solid #8bcbb9;
+    border-radius: 10px;
+    color: #8bcbb9;
+    font-weight: bold;
+    margin: 15px 38%;
+    /*media query*/
+  }
+
+  /* line 275, style.scss */
+  section {
+    padding: 100px 30px;
+  }
+
+  /* line 278, style.scss */
+  .projects {
+    /*-------------Everything seems fine-------------*/
+  }
+  /* line 279, style.scss */
+  .projects p {
+    margin: 0px 0px 30px 0px;
+    /*media query*/
+  }
+  /* line 282, style.scss */
+  .projects img {
+    width: 75%;
+  }
+
+  /* line 286, style.scss */
+  .contact {
+    /*---SEEMS FINE---*/
+    margin: 80px 30px;
+    /*media query*/
+    /*MEDIA QUERY*/
+  }
+  /* line 289, style.scss */
+  .contact .social {
+    text-align: center;
+    width: 100%;
+    /*media query*/
+    margin: 0 auto;
+  }
+  /* line 294, style.scss */
+  .contact img {
+    width: 40px;
+    /*media query*/
+  }
+  /* line 297, style.scss */
+  .contact ul {
+    padding: 0px;
+    /* centers social media query*/
+  }
+  /* line 300, style.scss */
+  .contact li.pure-u-md-1-5.pure-u-sm-1-5 {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  /* line 307, style.scss */
+  .about {
+    height: 520px;
+    /*change in every quey*/
+    padding: 40px 40px;
+  }
+  /* line 311, style.scss */
+  .about img {
+    width: 300px;
+  }
+  /* line 314, style.scss */
+  .about .border {
+    padding: 20px 0px;
+  }
+  /* line 317, style.scss */
+  .about .contentalign {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 322, style.scss */
+  .about .contentalign img {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+  }
+
+  /* line 327, style.scss */
+  .skills {
+    height: 550px;
+    padding-top: 60px;
+    /*media query*/
+  }
+  /* line 330, style.scss */
+  .skills img {
+    width: 380px;
+  }
+  /* line 333, style.scss */
+  .skills p {
+    font-family: sans-serif;
+    font-size: 16px;
+    /*media query*/
+    line-height: 28px;
+    /*media query*/
+  }
+
+  /* line 339, style.scss */
+  .html {
+    border: 5px solid #8bcbb9;
+    border-radius: 10px;
+    color: #8bcbb9;
+    font-weight: bold;
+    margin: 15px 38%;
+    /*media query*/
+  }
+
+  /* line 346, style.scss */
+  .css {
+    border: 5px solid #8bcbb9;
+    border-radius: 10px;
+    color: #8bcbb9;
+    font-weight: bold;
+    margin: 15px 38%;
+    /*media query*/
+  }
+
+  /* line 353, style.scss */
+  section {
+    padding: 100px 30px;
+  }
+
+  /* line 356, style.scss */
+  .projects {
+    /*-------------Everything seems fine-------------*/
+  }
+  /* line 357, style.scss */
+  .projects p {
+    margin: 0px 0px 30px 0px;
+    /*media query*/
+  }
+  /* line 360, style.scss */
+  .projects img {
+    width: 75%;
+  }
+
+  /* line 364, style.scss */
+  .contact {
+    /*---SEEMS FINE---*/
+    margin: 80px 30px;
+    /*media query*/
+    /*MEDIA QUERY*/
+  }
+  /* line 367, style.scss */
+  .contact .social {
+    text-align: center;
+    width: 300px;
+    /*media query*/
+    margin: 0 auto;
+  }
+  /* line 372, style.scss */
+  .contact img {
+    width: 40px;
+    /*media query*/
+  }
+  /* line 375, style.scss */
+  .contact ul {
+    padding: 0px;
+    /* centers social media query*/
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* line 381, style.scss */
+  .about {
+    height: 500px;
+    /*change in every quey*/
+    padding: 40px 40px;
+  }
+  /* line 385, style.scss */
+  .about img {
+    width: 350px;
+    padding: 5% 0px;
+  }
+  /* line 389, style.scss */
+  .about p {
+    padding: 5% 0px;
+  }
+  /* line 392, style.scss */
+  .about .border {
+    padding: 20px 0px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  /* line 399, style.scss */
+  .about {
+    height: 500px;
+    /*change in every quey*/
+    padding: 40px 80px;
+  }
+  /* line 403, style.scss */
+  .about img {
+    width: 440px;
+    padding: 5% 0px;
+  }
+  /* line 407, style.scss */
+  .about p {
+    padding: 5% 0px;
+    font-size: 20px;
+  }
+  /* line 411, style.scss */
+  .about .border {
+    padding: 20px 0px;
+  }
+}

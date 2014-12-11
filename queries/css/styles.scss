@@ -1,0 +1,55 @@
+html{
+	background-color: #333;
+}
+
+body, h1{
+	margin: 0;
+}
+
+header{
+	background-color: #aaa;
+}
+
+.hero{
+	height: 100px;
+	background-image: url("../img/bamboo-forest-maui.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+main{
+	background-color: white;
+}
+
+
+
+footer{
+	background-color: #333;
+	color: white;
+}
+
+@media screen and (min-width: 992px){
+	body{
+	// background-color: blue; hidden behind grey
+	}
+	article div{
+		columns: 2;
+	}
+	
+}
+
+@media screen and (max-width: 768px){
+	.hero{
+		background-attachment: scroll;
+	}
+	aside{
+		ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		li:nth-child(odd){
+			background-color: cadetblue;
+		}
+	}
+}

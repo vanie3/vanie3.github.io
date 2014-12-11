@@ -1,0 +1,60 @@
+/* line 1, styles.scss */
+html {
+  background-color: #333;
+}
+
+/* line 5, styles.scss */
+body, h1 {
+  margin: 0;
+}
+
+/* line 9, styles.scss */
+header {
+  background-color: #aaa;
+}
+
+/* line 13, styles.scss */
+.hero {
+  height: 100px;
+  background-image: url("../img/bamboo-forest-maui.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 20, styles.scss */
+main {
+  background-color: white;
+}
+
+/* line 26, styles.scss */
+footer {
+  background-color: #333;
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 35, styles.scss */
+  article div {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 42, styles.scss */
+  .hero {
+    background-attachment: scroll;
+  }
+
+  /* line 46, styles.scss */
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 51, styles.scss */
+  aside li:nth-child(odd) {
+    background-color: cadetblue;
+  }
+}

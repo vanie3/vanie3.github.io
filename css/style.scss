@@ -1,0 +1,436 @@
+body{
+
+}
+
+// at 1016px- it breaks, make new media query
+.pure-menu li a:hover, .pure-menu li a:focus {
+	background: transparent;
+}
+.pure-menu-open>ul {
+	width: 100%;
+	background-color: rgb(139, 203, 185);
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 1);
+}
+.pure-menu-horizontal li { /* before was links */
+	padding: 5% 12%; /* media query */
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	/* font-size: media query*/
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 1);
+}
+.pure-menu li a {
+	padding: 0px 0px;
+}
+.pure-u-md-1-3{
+	float: left;
+	text-align: center;
+}
+.pure-menu-heading{
+	img{ 
+		width: 200px; /* media query */
+	}
+}
+.pure-menu .pure-menu-heading {
+	padding: 0px;
+}
+.pure-menu a{
+	color: inherit;
+}
+header{
+	height: 725px; /* media query*/
+	background-image: url('../img/bg4.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	.pure-u-1{ /*FOR DOWN ARROW in html*/
+		width: 8%;
+		height: 8%;
+	}
+	
+}
+.about{ /*----------KEEP----------*/
+	// background-image: url('../img/bg4.jpg');
+	// background-repeat: no-repeat;
+	// background-attachment: fixed;
+	// background-size: cover;
+	height: 500px; /*media query*/
+	background-color: rgb(139, 203, 185);
+	padding: 0px 100px; /*media query*/
+	text-align: center;
+	padding-top: 60px; /*media query*/
+	img{
+		width: 400px;
+		padding: 0px 0px;
+		padding-right: 15px; /*media query*/
+	}
+	h1{
+		text-align: center;
+		/* font-size: media query*/
+		color: white;
+	}
+	p{
+		color: white;
+		font-family: sans-serif;
+		font-size: 16px; /*media query*/
+		line-height: 28px; /*media query*/
+		padding: 0px 0px;
+		margin-left: 15px;/*media query*/
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.border {
+		border-top: 7px solid white;
+		border-bottom: 7px solid white;
+		padding: 30px 30px; /*media query*/
+		//display: inline-flex;
+	}
+	.contentalign{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		img {
+			flex: none;
+		}
+	}
+	
+}
+.pure-g [class *="pure-u"] {
+	font-family: 'Montserrat', sans-serif;
+}
+.skills{
+	// http://pshoudini.deviantart.com/art/Black-wall-free-texture-338571524
+	background-image: url('../img/texture.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 700px; /*media query*/
+	color: white;
+	text-shadow: 0px 2px 15px rgba(0, 0, 0, 1);
+	padding-top: 60px; /*media query*/
+	.pure-md-1-1{
+		text-align: center;
+	}
+	img{
+		width: 800px; /*media query*/
+	}
+	h1{
+		font-family: 'Montserrat', sans-serif;
+	}
+	p{
+		font-family: sans-serif;
+		font-size: 16px;/*media query*/
+		line-height: 28px;/*media query*/
+	}
+}
+.html{
+	border: 5px solid #8bcbb9;
+	border-radius: 10px;
+	color: #8bcbb9;
+	font-weight: bold;
+	margin: 15px 38%; /*media query*/
+}
+.css{
+	border: 5px solid #8bcbb9;
+	border-radius: 10px;
+	color: #8bcbb9;
+	font-weight: bold;
+	margin: 15px 38%; /*media query*/
+}
+section{
+	padding: 100px 80px; /*media query*/
+	background-color: rgb(139, 203, 185);
+}
+.projects{ /*-------------Everything seems fine-------------*/
+	h1{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		margin-bottom: 5px; /*media query*/
+		color: white;
+	}
+	p{
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 16px;/*media query*/
+		margin: 0px 0px 30px 0px;/*media query*/
+		color: grey;
+	}
+	img{
+		width: 75%;
+	}
+}
+.caption{
+	margin: 10px 0px;/*media query*/
+	h4{
+		text-align: center;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		margin: 0px 0px 5px 0px;/*media query*/
+	}
+	p{
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 16px; /*media query*/
+		margin-bottom: 30px; /*media query*/
+		color: grey;
+	}
+}
+
+.contact{ /*---SEEMS FINE---*/
+	margin: 80px 30px; /*media query*/
+	h1{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		color: black;
+	}
+	p{
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 16px; /*media query*/
+		color: grey;
+	} /*MEDIA QUERY*/
+	.social{
+		text-align: center;
+		width: 400px; /*media query*/
+		margin: 0 auto;
+	}
+	img{
+		width: 40px; /*media query*/
+	}
+	ul{
+		list-style-type: none;
+		padding: 0px; /* centers social media query*/
+	}
+}
+footer{/*---SEEMS FINE---*/
+	background-color: grey;
+	p{
+		text-align: center;
+		color: white;
+	}
+}
+
+
+/*------------------------------------
+                QUERIES
+-------------------------------------*/
+
+@media screen and (max-width: 568px){
+	.about{ /*----------KEEP----------*/
+		// background-image: url('../img/bg4.jpg');
+		// background-repeat: no-repeat;
+		// background-attachment: fixed;
+		// background-size: cover;
+		height: 700px;/*change in every quey*/
+		padding: 0px 40px;
+		padding-top: 60px; /*media query*/
+		img{
+			width: 250px;
+			padding: 0px 0px; /*centers it*/
+		}
+		p{
+			padding-top: 10px;
+			margin-left: 0px;
+		}
+		.border {
+			padding: 20px 0px;
+		}
+		.contentalign{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			img {
+				flex: none;
+			}
+		}
+	}
+	.skills{
+		height: 550px;
+		padding-top: 60px; /*media query*/
+		img{
+			width: 380px;
+		}
+		p{
+			font-family: sans-serif;
+			font-size: 16px;/*media query*/
+			line-height: 28px;/*media query*/
+		}
+	}
+	.html{
+		border: 5px solid #8bcbb9;
+		border-radius: 10px;
+		color: #8bcbb9;
+		font-weight: bold;
+		margin: 15px 38%; /*media query*/
+	}
+	.css{
+		border: 5px solid #8bcbb9;
+		border-radius: 10px;
+		color: #8bcbb9;
+		font-weight: bold;
+		margin: 15px 38%; /*media query*/
+	}
+	section{
+		padding: 100px 30px;
+	}
+	.projects{ /*-------------Everything seems fine-------------*/
+		p{
+			margin: 0px 0px 30px 0px;/*media query*/
+		}
+		img{
+			width: 75%;
+		}
+	}
+	.contact{ /*---SEEMS FINE---*/
+		margin: 80px 30px; /*media query*/
+		/*MEDIA QUERY*/
+		.social{
+			text-align: center;
+			width: 100%; /*media query*/
+			margin: 0 auto;
+		}
+		img{
+			width: 40px; /*media query*/
+		}
+		ul{
+			padding: 0px; /* centers social media query*/
+		}
+		li.pure-u-md-1-5.pure-u-sm-1-5 {
+			padding: 10px;
+		}
+	}
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px){
+	.about{
+		height: 520px;/*change in every quey*/
+		padding: 40px 40px;
+		// padding-top: 60px; /*media query*/
+		img{
+			width: 300px;
+		}
+		.border {
+			padding: 20px 0px;
+		}
+		.contentalign{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			img {
+				flex: none;
+			}
+		}
+	}
+	.skills{
+		height: 550px;
+		padding-top: 60px; /*media query*/
+		img{
+			width: 380px;
+		}
+		p{
+			font-family: sans-serif;
+			font-size: 16px;/*media query*/
+			line-height: 28px;/*media query*/
+		}
+	}
+	.html{
+		border: 5px solid #8bcbb9;
+		border-radius: 10px;
+		color: #8bcbb9;
+		font-weight: bold;
+		margin: 15px 38%; /*media query*/
+	}
+	.css{
+		border: 5px solid #8bcbb9;
+		border-radius: 10px;
+		color: #8bcbb9;
+		font-weight: bold;
+		margin: 15px 38%; /*media query*/
+	}
+	section{
+		padding: 100px 30px;
+	}
+	.projects{ /*-------------Everything seems fine-------------*/
+		p{
+			margin: 0px 0px 30px 0px;/*media query*/
+		}
+		img{
+			width: 75%;
+		}
+	}
+	.contact{ /*---SEEMS FINE---*/
+		margin: 80px 30px; /*media query*/
+		/*MEDIA QUERY*/
+		.social{
+			text-align: center;
+			width: 300px; /*media query*/
+			margin: 0 auto;
+		}
+		img{
+			width: 40px; /*media query*/
+		}
+		ul{
+			padding: 0px; /* centers social media query*/
+		}
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.about{
+		height: 500px;/*change in every quey*/
+		padding: 40px 40px;
+		// padding-top: 60px; /*media query*/
+		img{
+			width: 350px;
+			padding: 5% 0px;
+		}
+		p{
+			padding: 5% 0px;
+		}
+		.border {
+			padding: 20px 0px;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+	.about{
+		height: 500px;/*change in every quey*/
+		padding: 40px 80px;
+		// padding-top: 60px; /*media query*/
+		img{
+			width: 440px;
+			padding: 5% 0px;
+		}
+		p{
+			padding: 5% 0px;
+			font-size: 20px;
+		}
+		.border {
+			padding: 20px 0px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

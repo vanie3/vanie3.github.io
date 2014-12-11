@@ -53,60 +53,8 @@ table {
 	background-color: red;
 	clear: both;
 }
-body{
-	background-color: teal;
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-header{
-	background-color: hsl(202, 91%, 87%)
-}
-header img{
-	width: 250px;
-}
-/*header ul:before,
-header ul:after{
-	content: " ";
-	display: block;
-	height: 10px;
-	background-color: red;
-	clear: both;
-} */
-header li{
-	display: inline-block;
-	width: 25%;
-	float: left;
-}
-#hero{
-	height: 200px;
-	background-image: url("../img/sky.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-}
-main img{
-	width: 25%;
-}
-main article{
-	 width: 75%;
-	 float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

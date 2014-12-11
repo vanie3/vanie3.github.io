@@ -1,0 +1,8 @@
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: block;
+	/*height: 10px;*/
+	background-color: red;
+	clear: both;
+}
